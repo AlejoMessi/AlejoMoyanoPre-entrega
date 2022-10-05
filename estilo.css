@@ -1,6 +1,45 @@
+/*navegador*/
 .contenedor-nav {
     padding: 4px;
     background-color: rgb(167, 0, 0);
 
+}
+.contenedor-nav h1{
+    
+    font-family: 'Kaushan Script', cursive;
+    color: #111;
+    text-shadow: 0 0px 15px #fff;
+    font-size: 30px;
+    text-align: center;
+}
 
+.menu {
+    font-family: 'Quattrocento', serif;
+}
+
+/*footer*/
+footer {
+    padding: 0 16px;
+    background-color: rgb(167, 0, 0);
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    bottom: 0;;
+}
+
+footer div a {
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 8px;
+    color: #111;
+}
+
+/*inicio*/
+.inicio {
+    background-color: #999;
 }
