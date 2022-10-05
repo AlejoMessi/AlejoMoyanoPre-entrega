@@ -38,8 +38,76 @@ footer div a {
     margin: 0 8px;
     color: #111;
 }
+footer div a:hover {
+    color: rgb(97, 65, 65);
+}
 
 /*inicio*/
 .inicio {
     background-color: #999;
+    padding: 16px;
+    
+}
+
+.sub-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub2-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.sub2-inicio h2{
+    font-size: 20px;
+    font-family: 'Quattrocento', serif;
+    color: #111;
+}
+.sub2-inicio h3{
+    color: #fff;
+    background-color: #111;
+    font-size: 20px;
+    border: solid 2px #111;
+    text-align: center;
+}   
+
+.sub2-inicio a {
+    color: rgb(167, 0, 0);
+    font-family: 'Quattrocento', serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sub2-inicio a:hover {
+    color: rgb(233, 78, 78);
+}
+
+#logo {
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.maps {
+    text-align: center;
+    padding: 16px;
+}
+.sub-maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#maps1 {
+    width: 300px;
+    height: 200px;
+}
+#maps2 {
+    width: 300px;
+    height: 200px;
 }
