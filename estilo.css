@@ -17,32 +17,8 @@
     font-family: 'Quattrocento', serif;
 }
 
-/*footer*/
-footer {
-    padding: 0 16px;
-    background-color: rgb(167, 0, 0);
-    display: flex;
-    flex-direction: rows;
-    justify-content: space-around;
-    align-items: center;
-    height: 30px;
-    bottom: 0;;
-}
-
-footer div a {
-    font-family: 'Quattrocento', serif;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 8px;
-    margin: 0 8px;
-    color: #111;
-}
-footer div a:hover {
-    color: rgb(97, 65, 65);
-}
-
 /*inicio*/
+
 .inicio {
     background-color: #999;
     padding: 16px;
@@ -97,10 +73,8 @@ footer div a:hover {
 }
 
 @keyframes entrada-logo {
-    0% {
-        /*transform: translateX(-400px);*/
-        /*opacity: 0;*/
-        
+    0% {   
+        transform: translateX(0px);
     }
     25% {
         transform: translateX(-10px);
@@ -112,13 +86,10 @@ footer div a:hover {
         transform: translateX(-10px);
     }
     100% {
-        /*transform: translate(0);*/
-        /*opacity: 2;*/
         transform: translateX(0px);
     }
 
 }
-
 
 .maps {
     text-align: center;
@@ -146,4 +117,55 @@ footer div a:hover {
 #maps2:hover {
     width: 310px;
     height: 210px;
+}
+
+/*productos*/
+
+.productos {
+    background-color: #999;
+
+}
+.prod-titulo {
+    color: #111;
+    text-align: center;
+}
+.prod-imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+.prod-imagenes h5 {
+    font-size: 15px;
+    color: #111;
+}
+
+.prod-imagenes img {
+    height: 180px;
+    width: 150px;
+}
+
+/*footer*/
+
+footer {
+    padding: 0 16px;
+    background-color: rgb(167, 0, 0);
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    bottom: 0;;
+}
+
+footer div a {
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 8px;
+    color: #111;
+}
+footer div a:hover {
+    color: rgb(97, 65, 65);
 }
