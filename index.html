@@ -3,55 +3,98 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
+    <!--estilo-->
     <link rel="stylesheet" href="estilo.css">
+    
+    <!--fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quattrocento:wght@700&display=swap" rel="stylesheet">
     <title>Pre entrega 2</title>
   </head>
   <body>
+    <!--navegador-->
+    <div class="contenedor-nav">
+            <h1>Bear Drinks</h1>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+    </div> 
+
+     <!--Inicio-->
+     <header class="inicio">   
+        <div class="sub-inicio">    
+            <div class="sub2-inicio">
+                <h2>Bienvenidos a Bear Drinks</h2>
+                <h3>Dejá que el escabio llegue a vos!</h3>
+                <p>Te lo llevamos hasta tu casa o puedes retirarlo por alguno de nuestros locales</p>
+                <a href="productos.html">Ir a comprar</a>
+            </div>
+            <img id="logo" src="imagenes/logobear.png" alt="logo" title="logo Bear Drinks" >
+            </div>
+            <div class="maps">
+                <h3>
+                     Ubicacion de nuestros locales
+                </h3>
+                <div class="sub-maps">
+                    <div>
+                        <h4>Local 1</h4>
+                        <iframe id="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.149460467244!2d-64.1715796813882!3d-31.416460565753265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a22b7731ff%3A0xb7899431de53ec05!2sEl%20Club%20de%20la%20Milanesa!5e0!3m2!1ses-419!2sar!4v1664908517531!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>    
+                    <div>
+                        <h4>Local 2</h4>
+                        <iframe id="maps2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.149460467244!2d-64.1715796813882!3d-31.416460565753265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a1601a1b5d%3A0x9c221ca13b5a9ea2!2sViejo%20Lobo%20Parrilla!5e0!3m2!1ses-419!2sar!4v1664909227047!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>    
+                </div>
         </div>
-      </nav>
+    </header>
 
-
-
-    
-
+    <!--footer-->
+    <Footer>
+        <div>
+            
+            <a href="linkinsta" target="_blank">Instagram </a>
+            <a href="linkwhatsapp" target="_blank">Whatsapp</a>
+            <a href="linkfacebook" target="_blank">Facebook</a>
+            
+        </div>
+    </Footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
