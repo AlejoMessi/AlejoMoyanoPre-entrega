@@ -27,7 +27,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 30px;
-    bottom: 0;;
+    bottom: 0;
 }
 
 footer div a {
@@ -277,4 +277,8 @@ footer div a:hover {
 #prom-8:hover {
     height: 190px;
     width: 160px;
+}
+
+.toast {
+
 }
