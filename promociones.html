@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quattrocento:wght@700&display=swap" rel="stylesheet">
-    <title>Pagina Inicio</title>
+    <title>Pagina Promociones</title>
   </head>
   <body>
     <!--navegador-->
@@ -21,17 +21,17 @@
 
             <nav class="navbar navbar-expand-lg menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand nav-inicio" href="#">Inicio</a>
+                    <a class="navbar-brand nav-inicio" href="#">Promociones</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="promociones.html">Promociones</a>
+                                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="registro.html">Registrarse</a>
@@ -47,33 +47,50 @@
             </nav>
     </div> 
 
-     <!--Inicio-->
-     <header class="inicio">   
-        <div class="sub-inicio">    
-            <div class="sub2-inicio">
-                <h2>Bienvenidos a Bear Drinks</h2>
-                <h3>Dejá que el escabio llegue a vos!</h3>
-                <p>Te lo llevamos hasta tu casa o puedes retirarlo por alguno de nuestros locales</p>
-                <a href="productos.html">Ir a comprar</a>
+    <!--productos-->
+     <header class="promociones">
+        <section class="prom-titulo">
+            <h4>Promociones disponibles</h4>
+            <p>Selecciona las promociones que desees y se iran añadiendo al <a href="carrito.html">carrito</a></p>
+        </section>
+
+        <section class="prom-imagenes">
+               
+            <div>
+                <img id="prom-1" src="imagenes/fernetconcoca.png" alt="promo 1" title="promo 1">
+                <h5>Fernet + Coca Cola</h5>
+            </div> 
+            <div>
+                <img id="prom-2" src="imagenes/vinoconpritty.png" alt="promo 2" title="promo 2">
+                <h5>Vino + Pritty</h5>
             </div>
-            <img id="logo" src="imagenes/logobear.png" alt="logo" title="logo Bear Drinks" >
+            <div>
+                <img id="prom-3" src="imagenes/smirnoffconspeed.png" alt="promo 3" title="promo 3">
+                <h5>Smirnoff + 2 Speed</h5>
             </div>
-            <div class="maps">
-                <h3>
-                     Ubicacion de nuestros locales
-                </h3>
-                <div class="sub-maps">
-                    <div>
-                        <h4>Local 1</h4>
-                        <iframe id="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.149460467244!2d-64.1715796813882!3d-31.416460565753265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a22b7731ff%3A0xb7899431de53ec05!2sEl%20Club%20de%20la%20Milanesa!5e0!3m2!1ses-419!2sar!4v1664908517531!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>    
-                    <div>
-                        <h4>Local 2</h4>
-                        <iframe id="maps2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.149460467244!2d-64.1715796813882!3d-31.416460565753265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a1601a1b5d%3A0x9c221ca13b5a9ea2!2sViejo%20Lobo%20Parrilla!5e0!3m2!1ses-419!2sar!4v1664909227047!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>    
-                </div>
-        </div>
-    </header>
+            <div>
+                <img id="prom-4" src="imagenes/ganciaconspritte.png" alt="promo 4" title="promo 4">
+                <h5>Gancia + Sprite</h5>
+            </div>
+            <div>
+                <img id="prom-5" src="imagenes/skyyconspeed.jpg" alt="promo 5" title="promo 5"> 
+                <h5>Skyy + 2 Speeds</h5>
+            </div>     
+            <div>
+                <img id="prom-6" src="imagenes/absolute.speed.jpg" alt="promo 6" title="promo 6">
+                <h5>Absolute + 4 Speeds</h5>
+            </div>        
+            <div>
+                <img id="prom-7" src="imagenes/campariconcepita.png" alt="promo 7" title="promo 7">   
+                <h5>Campari + Cepita</h5>
+            </div>    
+            <div>
+                <img id="prom-8" src="imagenes/aperolconbaggio.jpg" alt="promo 8" title="promo 8">
+                <h5>Aperol + 2 Baggios</h5>
+            </div>            
+        </section>
+
+     </header>
 
     <!--footer-->
     <Footer>
@@ -90,10 +107,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-<!--token acceso github
-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-->
-
-

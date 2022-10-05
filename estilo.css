@@ -179,35 +179,102 @@ footer div a:hover {
     width: 150px;
 }
 
-#img-1:hover {
+#prod-1:hover {
     height: 190px;
     width: 160px;
 }
-#img-2:hover {
+#prod-2:hover {
     height: 190px;
     width: 160px;
 }
-#img-3:hover {
+#prod-3:hover {
     height: 190px;
     width: 160px;
 }
-#img-4:hover {
+#prod-4:hover {
     height: 190px;
     width: 160px;
 }
-#img-5:hover {
+#prod-5:hover {
     height: 190px;
     width: 160px;
 }
-#img-6:hover {
+#prod-6:hover {
     height: 190px;
     width: 160px;
 }
-#img-7:hover {
+#prod-7:hover {
     height: 190px;
     width: 160px;
 }
-#img-8:hover {
+#prod-8:hover {
+    height: 190px;
+    width: 160px;
+}
+
+/*promociones*/
+
+.promociones {
+    background-color: #999;
+
+}
+.prom-titulo {
+    color: #111;
+    text-align: center;
+    padding: 16px;
+}
+.prom-titulo p a {
+    text-decoration: none;
+    color: rgb(167, 0, 0);
+    font-family: 'Quattrocento', serif;
+}
+.prom-titulo p a:hover {
+    color: rgb(233, 78, 78);
+}
+.prom-imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+.prom-imagenes h5 {
+    font-size: 15px; 
+    color: #111;
+}
+
+.prom-imagenes img {
+    height: 180px;
+    width: 150px;
+}
+
+#prom-1:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-2:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-3:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-4:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-5:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-6:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-7:hover {
+    height: 190px;
+    width: 160px;
+}
+#prom-8:hover {
     height: 190px;
     width: 160px;
 }
