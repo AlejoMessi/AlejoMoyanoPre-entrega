@@ -17,6 +17,32 @@
     font-family: 'Quattrocento', serif;
 }
 
+/*footer*/
+
+footer {
+    padding: 0 16px;
+    background-color: rgb(167, 0, 0);
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    bottom: 0;;
+}
+
+footer div a {
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 8px;
+    color: #111;
+}
+footer div a:hover {
+    color: rgb(97, 65, 65);
+}
+
 /*inicio*/
 
 .inicio {
@@ -128,6 +154,15 @@
 .prod-titulo {
     color: #111;
     text-align: center;
+    padding: 16px;
+}
+.prod-titulo p a {
+    text-decoration: none;
+    color: rgb(167, 0, 0);
+    font-family: 'Quattrocento', serif;
+}
+.prod-titulo p a:hover {
+    color: rgb(233, 78, 78);
 }
 .prod-imagenes {
     display: grid;
@@ -135,7 +170,7 @@
     text-align: center;
 }
 .prod-imagenes h5 {
-    font-size: 15px;
+    font-size: 15px; 
     color: #111;
 }
 
@@ -144,28 +179,35 @@
     width: 150px;
 }
 
-/*footer*/
-
-footer {
-    padding: 0 16px;
-    background-color: rgb(167, 0, 0);
-    display: flex;
-    flex-direction: rows;
-    justify-content: space-around;
-    align-items: center;
-    height: 30px;
-    bottom: 0;;
+#img-1:hover {
+    height: 190px;
+    width: 160px;
 }
-
-footer div a {
-    font-family: 'Quattrocento', serif;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 8px;
-    margin: 0 8px;
-    color: #111;
+#img-2:hover {
+    height: 190px;
+    width: 160px;
 }
-footer div a:hover {
-    color: rgb(97, 65, 65);
+#img-3:hover {
+    height: 190px;
+    width: 160px;
+}
+#img-4:hover {
+    height: 190px;
+    width: 160px;
+}
+#img-5:hover {
+    height: 190px;
+    width: 160px;
+}
+#img-6:hover {
+    height: 190px;
+    width: 160px;
+}
+#img-7:hover {
+    height: 190px;
+    width: 160px;
+}
+#img-8:hover {
+    height: 190px;
+    width: 160px;
 }
