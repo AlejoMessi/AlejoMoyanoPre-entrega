@@ -157,10 +157,12 @@
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: center;
+
 }
 .prod-imagenes h5 {
     font-size: 15px; 
     color: #111;
+    font-family: 'Quattrocento', serif;
 }
 
 .prod-imagenes img {
@@ -168,38 +170,11 @@
     width: 150px;
 }
 
-#prod-1:hover {
+#prod-img:hover {
     height: 190px;
     width: 160px;
 }
-#prod-2:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-3:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-4:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-5:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-6:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-7:hover {
-    height: 190px;
-    width: 160px;
-}
-#prod-8:hover {
-    height: 190px;
-    width: 160px;
-}
+
 
 /*promociones*/
 
@@ -228,6 +203,7 @@
 .prom-imagenes h5 {
     font-size: 15px; 
     color: #111;
+    font-family: 'Quattrocento', serif;
 }
 
 .prom-imagenes img {
@@ -235,40 +211,10 @@
     width: 150px;
 }
 
-#prom-1:hover {
+#prom-img:hover {
     height: 190px;
     width: 160px;
 }
-#prom-2:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-3:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-4:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-5:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-6:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-7:hover {
-    height: 190px;
-    width: 160px;
-}
-#prom-8:hover {
-    height: 190px;
-    width: 160px;
-}
-
-
 
 /*registro*/
 
@@ -496,4 +442,80 @@ footer div a:hover {
     #nav-resp-5{
         color: #fff;
     }
+
+    
+    /*inicio*/
+    
+    .sub-maps {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    
+    #maps1:hover {
+        width: 315px;
+        height: 215px;
+    }
+    #maps2:hover {
+        width: 315px;
+        height: 215px;
+    }
+    
+    /*productos*/
+
+    .prod-titulo h4{
+        font-size: 25px;
+    }
+    .prod-titulo p{
+        font-size: 20px;
+    }
+    
+    .prod-imagenes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .prod-imagenes img {
+        height: 280px;
+        width: 260px;
+        padding: 16px;
+    }
+
+    #prod-img:hover {
+        height: 295px;
+        width: 275px;
+    }
+    
+    /*promociones*/
+
+    .prom-titulo h4{
+        font-size: 25px;
+    }
+    .prom-titulo p{
+        font-size: 20px;
+    }
+
+    .prom-imagenes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .prom-imagenes h5 {
+        font-size: 20px; 
+    }
+
+    .prom-imagenes img {
+        height: 280px;
+        width: 260px;
+        padding: 16px;
+    }
+
+    #prom-img:hover {
+        height: 295px;
+        width: 275px;
+    }
+
 }
