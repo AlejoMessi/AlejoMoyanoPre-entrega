@@ -17,31 +17,7 @@
     font-family: 'Quattrocento', serif;
 }
 
-/*footer*/
 
-footer {
-    padding: 0 16px;
-    background-color: rgb(167, 0, 0);
-    display: flex;
-    flex-direction: rows;
-    justify-content: space-around;
-    align-items: center;
-    height: 30px;
-    bottom: 0;
-}
-
-footer div a {
-    font-family: 'Quattrocento', serif;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 8px;
-    margin: 0 8px;
-    color: #111;
-}
-footer div a:hover {
-    color: rgb(97, 65, 65);
-}
 
 /*inicio*/
 
@@ -312,6 +288,13 @@ footer div a:hover {
 .registro p a{
     color: rgb(167, 0, 0);
 }
+.registro p a:hover {
+    color: rgb(233, 41, 41);
+}
+.form-correo {
+    color: #111;
+    font-family: 'Quattrocento', serif;
+}
 
 .cont-boton {
     text-align: center;
@@ -320,6 +303,9 @@ footer div a:hover {
 .boton {
     background-color: rgb(167, 0, 0);
     color: #fff;
+}
+.boton:hover {
+    background-color: rgb(233, 41, 41);
 }
 
 .cont-logo {
@@ -359,21 +345,81 @@ footer div a:hover {
 
 .carrito {
     background-color: #999;
-   
-    text-align: center;
     
+    text-align: center;
+    padding-top: 24px;
 }
 
 .tit-carrito h2 {
     color: #111;
     font-family: 'Quattrocento', serif;
 }
+
+.cont-tarjeta {
+    padding: 16px;
+    
+    display: inline-block;
+    align-content: center;
+}
+.card {
+    padding-top: 16px;
+    text-align: center;
+    background-color: rgb(71, 16, 16);
+    color: #fff;
+}
+.card div a{
+    color: rgb(245, 158, 158);
+}
+.card div a:hover {
+    color: rgb(255, 88, 88);
+}
+
 .tit-carrito img {
     height: 150px;
     width: 280px;
+    animation-name: entrada-carrito;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
 }
-.card {
-    text-align: center;
+@keyframes entrada-carrito {
+    0% {
+        transform: translateX(-300px);
+    }
+    85% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
     
+}
 
+
+/*footer*/
+
+footer {
+    padding: 0 16px;
+    background-color: rgb(167, 0, 0);
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    
+    
+}
+
+footer div a {
+    font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 8px;
+    color: #111;
+}
+footer div a:hover {
+    color: rgb(97, 65, 65);
 }
