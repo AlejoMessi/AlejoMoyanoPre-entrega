@@ -92,13 +92,13 @@ footer div a:hover {
     padding-top: 10px;
     height: 200px;
     width: 200px;
-    animation-name: entrada-logo;
+    animation-name: mov-logo;
     animation-duration: 2s;
     animation-iteration-count: 2;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes entrada-logo {
+@keyframes mov-logo {
     0% {   
         transform: translateX(0px);
     }
@@ -279,3 +279,101 @@ footer div a:hover {
     width: 160px;
 }
 
+
+
+/*registro*/
+
+.registro {
+    background-color: #999;
+    padding: 16px;
+    
+    
+}
+.reg-titulo {
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    
+}
+
+
+.reg-titulo h4 {
+    font-size: 16px;
+}
+
+.formulario {
+    padding-top: 30px;
+}
+
+.registro p{
+    color: #111;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+}
+.registro p a{
+    color: rgb(167, 0, 0);
+}
+
+.cont-boton {
+    text-align: center;
+    padding: 16px;
+}
+.boton {
+    background-color: rgb(167, 0, 0);
+    color: #fff;
+}
+
+.cont-logo {
+    text-align: center;
+}
+
+#reg-logo {
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    animation-name: mov-logo-reg;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mov-logo-reg {
+    0% {   
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+/*carrito*/
+
+.carrito {
+    background-color: #999;
+   
+    text-align: center;
+    
+}
+
+.tit-carrito h2 {
+    color: #111;
+    font-family: 'Quattrocento', serif;
+}
+.tit-carrito img {
+    height: 150px;
+    width: 280px;
+}
+.card {
+    text-align: center;
+    
+
+}
