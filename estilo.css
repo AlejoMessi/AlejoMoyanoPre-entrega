@@ -17,7 +17,10 @@
     font-family: 'Quattrocento', serif;
 }
 
-
+#nav-1:hover {
+    color: #999;
+    font-size: 20px;
+}
 
 /*inicio*/
 
@@ -369,6 +372,7 @@
 }
 .card div a{
     color: rgb(245, 158, 158);
+    text-decoration: none;
 }
 .card div a:hover {
     color: rgb(255, 88, 88);
