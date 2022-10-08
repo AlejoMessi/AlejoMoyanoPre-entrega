@@ -116,23 +116,16 @@
 .sub-maps div h4{
     padding-top: 16px;
 }
-#maps1 {
-    width: 300px;
-    height: 200px;
-}
-#maps2 {
+#ubi-maps {
     width: 300px;
     height: 200px;
 }
 
-#maps1:hover {
+#ubi-maps:hover {
     width: 310px;
     height: 210px;
 }
-#maps2:hover {
-    width: 310px;
-    height: 210px;
-}
+
 
 /*productos*/
 
@@ -222,7 +215,9 @@
     background-color: #999;
     padding: 16px;
     
-    
+    height: 750px;
+
+
 }
 .reg-titulo {
     text-align: center;
@@ -235,8 +230,18 @@
     font-size: 16px;
 }
 
+.cont-form {
+    display: flex;
+    justify-content: center;
+}
+
 .formulario {
     padding-top: 30px;
+    
+    max-height: 200px;
+    max-width: 400px;
+
+    
 }
 
 .registro p{
@@ -262,13 +267,20 @@
 .boton {
     background-color: rgb(167, 0, 0);
     color: #fff;
+    
 }
 .boton:hover {
     background-color: rgb(233, 41, 41);
 }
 
+.registrarse {
+    transform: translateY(150px);
+    padding-top: 16px;
+}
+
 .cont-logo {
     text-align: center;
+    transform: translateY(140px);
 }
 
 #reg-logo {
@@ -354,7 +366,32 @@
     }
     
 }
+.recomendaciones {
+    padding: 16px;
+    font-family: 'Quattrocento', serif;
+}
 
+.prod-reco {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+#reco-img {
+    height: 180px;
+    width: 150px;
+    padding: 16px;
+}
+
+#reco-img:hover {
+    height: 190px;
+    width: 160px;
+}
+
+.prod-reco h5{
+    font-size: 15px; 
+    color: #111;
+    font-family: 'Quattrocento', serif;
+}
 
 /*footer*/
 
@@ -367,8 +404,7 @@ footer {
     align-items: center;
     height: 30px;
     width: 100%;
-    
-    
+    bottom: 0;
 }
 
 footer div a {
@@ -452,11 +488,7 @@ footer div a:hover {
 
     }
     
-    #maps1:hover {
-        width: 315px;
-        height: 215px;
-    }
-    #maps2:hover {
+    #ubi-maps:hover {
         width: 315px;
         height: 215px;
     }
@@ -516,6 +548,142 @@ footer div a:hover {
     #prom-img:hover {
         height: 295px;
         width: 275px;
+    }
+
+     /*carrito*/
+
+    @keyframes entrada-carrito {
+        0% {
+            transform: translateX(-500px);
+        }
+        85% {
+            transform: translateX(10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        
+    }
+    
+    .recomendaciones h5 {
+        font-size: 20px; 
+    }
+
+    .prod-reco {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+
+    #reco-img {
+        height: 280px;
+        width: 260px;
+        padding: 16px;
+    }
+
+    #reco-img:hover {
+        height: 295px;
+        width: 275px;
+    }
+
+    /*registro*/
+    .reg-titulo h3{
+        font-size: 30px;
+        padding: 16px;
+    }
+    .registrarse {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    
+    /*inicio*/
+    .sub-inicio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sub2-inicio h2{
+        font-size: 25px;
+
+    }
+    .sub2-inicio h3{
+        font-size: 28px;
+        
+    }   
+    
+    .sub2-inicio a {
+       font-size: 20px;
+        
+    }
+    
+    #ubi-maps {
+        width: 400px;
+        height: 300px;
+    }
+    #ubi-maps:hover {
+        width: 415px;
+        height: 315px;
+    }
+
+    /*carrito*/
+
+    .cont-carrito {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    @keyframes entrada-carrito {
+        0% {
+            transform: translateX(-300px);
+        }
+        85% {
+            transform: translateX(10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        
+    }
+    
+    .recomendaciones h5 {
+        font-size: 20px; 
+        
+    }
+
+    #reco-img {
+        height: 280px;
+        width: 260px;
+        padding: 16px;
+    }
+
+    #reco-img:hover {
+        height: 295px;
+        width: 275px;
+    }
+
+    /*registro*/
+
+    .registro {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+    
+    }
+    
+    
+    #reg-logo {
+        
+        height: 270px;
+        width: 270px;
+        
     }
 
 }
